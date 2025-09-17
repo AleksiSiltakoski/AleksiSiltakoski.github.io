@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Cossette+Texte:wght@400;700&family=Outfit:wght@100..900&display=swap');
+
+
+body {color:rgb(225, 225, 113); /* tekstin väri */
+    background-color:rgb(114, 105, 120); /*taustan väri */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(https://i.redd.it/sl079lm5f8pd1.jpeg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 82% 100%;
+    
+}
+
+
+nav {text-align: center;}
+
+nav a{font-size: 23px;
+    text-decoration: none; /*alleviivaus pois*/
+    color: black;
+    background-color:plum;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: rgb(25, 22, 22);
+    display: inline-block; /*esitystyyppi mahdollistaa leveyden annon*/
+    width: 8em; /*leveys*/
+    }
+    nav a:hover {background-color: rgb(93, 0, 255);}
+
+    .sivulla {color: rgb(219, 206, 27);
+            background-color: rgb (25, 22, 22); }
+    
+
+h1 {margin-left: 100px;
+ font-family: "Cossette Texte", sans-serif;
+color:orange;
+text-shadow: 5px 5px 5px;
+}
+
+
+
+h2{color:chartreuse;
+font-family: "Outfit", sans-serif;
+}
+
+
+/*class-luokan määritys */
+.pun {color:red;}
+.keskitys {margin:auto; /*lohkon keskitys*/ 
+    text-align: center; /*tekstin keskitys */
+    /*id-määritys*/}
+
+
+#eka {color: rgb(3, 255, 255);
+font-family:'Segoe Ui', Tahoma, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+
+main{width:100%; /*suhteellinen leveys}*/
+    max-width: 1000px; /*maksimileveys */
+    margin:auto;
+    background-color: rgba(114, 105, 120, 0.562);
+    padding:15px;
+    border-radius: 5%;
+    border: 7px rgb(0, 0, 0) solid;
+  box-shadow: 8px 8px 10px rgb(209,233,156);
+}
